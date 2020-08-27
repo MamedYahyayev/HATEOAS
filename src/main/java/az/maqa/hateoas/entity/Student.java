@@ -28,6 +28,8 @@ public class Student extends BaseEntity {
 	private int course;
 
 	private Double examPoint;
+	
+	private String imgPath;
 
 	@Embedded
 	private Address address;

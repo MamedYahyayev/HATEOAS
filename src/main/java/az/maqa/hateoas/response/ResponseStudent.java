@@ -28,6 +28,8 @@ public class ResponseStudent extends RepresentationModel<ResponseStudent> {
 
 	private int course;
 
+	private String imgPath;
+	
 	private Double examPoint;
 
 	private Address address;

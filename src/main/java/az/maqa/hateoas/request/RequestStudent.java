@@ -1,7 +1,5 @@
-package az.maqa.hateoas.dto;
+package az.maqa.hateoas.request;
 
-import az.maqa.hateoas.entity.Address;
-import az.maqa.hateoas.entity.Teacher;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,9 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class StudentDTO {
-
-	private Long id;
+public class RequestStudent {
 
 	private String name;
 
@@ -24,11 +20,7 @@ public class StudentDTO {
 	private int course;
 
 	private String imgPath;
-	
+
 	private Double examPoint;
-
-	private Address address;
-
-	private Teacher teacher;
 
 }
